@@ -20,6 +20,11 @@ const routes = [
     name: "men",
     component: () => import("../views/MeCat.vue"),
   },
+  {
+    path: "/shop",
+    name: "shop",
+    component: () => import("../components/AboutShop.vue"),
+  },
 ];
 
 const router = createRouter({

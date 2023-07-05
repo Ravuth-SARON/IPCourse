@@ -105,31 +105,31 @@
     </div>
 
     <div class="grid grid-cols-4">
-      <div class="grid border-2 p-2 bg-slate-600">
+      <div class="grid border-2 p-2 bg-green-300 rounded-md">
         <img src="../assets/product3.jpg" alt="" class="w-[300px] h-[300px]" />
         <b class="text-white">15$</b>
       </div>
-      <div class="grid border-2 bg-slate-600 p-2">
+      <div class="grid border-2 bg-green-300 p-2 rounded-md">
         <img src="../assets/product2.jpg" alt="" class="w-[300px] h-[300px]" />
         <b class="text-white">15$</b>
       </div>
-      <div class="grid border-2 bg-slate-600 p-2">
+      <div class="grid border-2 bg-green-300 p-2 rounded-md">
         <img src="../assets/product4.jpg" alt="" class="w-[300px] h-[300px]" />
         <b class="text-white">15$</b>
       </div>
-      <div class="grid border-2 bg-slate-600 p-2">
+      <div class="grid border-2 bg-slate-green p-2 rounded-md">
         <img src="../assets/product5.jpg" alt="" class="w-[300px] h-[300px]" />
         <b class="text-white">15$</b>
       </div>
-      <div class="grid border-2 bg-slate-600 p-2">
+      <div class="grid border-2 bg-green-300 p-2 rounded-md">
         <img src="../assets/produc1.jpg" alt="" class="w-[300px] h-[300px]" />
         <b class="text-white">15$</b>
       </div>
-      <div class="grid border-2 bg-slate-600 p-2">
+      <div class="grid border-2 bg-green-300 p-2 rounded-md">
         <img src="../assets/product2.jpg" alt="" class="w-[300px] h-[300px]" />
         <b class="text-white">15$</b>
       </div>
-      <div class="grid border-2 bg-slate-600 p-2">
+      <div class="grid border-2 bg-green-300 p-2">
         <img src="../assets/product3.jpg" alt="" class="w-[300px] h-[300px]" />
         <b class="text-white">15$</b>
       </div>

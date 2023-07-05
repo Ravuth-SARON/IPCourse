@@ -1,11 +1,20 @@
 <template>
   <div class="home" style="margin: 0 auto">
-    <div id="hero_section">
-      <div id="hero_desc">
-        <h1 id="hero_text" style="display: grid">
-          <span>WE PROVIDE</span>
-          <span>YOU</span>
-          <span>A BETTER LOOK</span>
+    <div id="hero_section" class="h-[600px]">
+      <div class="">
+        <img
+          src="../assets/hero.jpg"
+          alt=""
+          height="300px"
+          width="600px"
+          class="mt-[0px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+        />
+      </div>
+      <div id="hero_desc" class="pr-[140px] mt-[150px]">
+        <h1 id="hero_text" style="display: grid" class="text-white">
+          <span>MID YEAR SALE</span>
+          <span>UP TO 70%</span>
+          <!-- <span>A BETTER LOOK</span> -->
         </h1>
         <div
           id="promote"
@@ -15,6 +24,7 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
               'Lucida Sans', Arial, sans-serif;
           "
+          class="text-slate-400"
         >
           <p>Be quick only 100 available products are on sale</p>
 
@@ -25,19 +35,17 @@
           style="
             margin: 40px 0px;
             border-radius: 10px;
-            border: 1px solid black;
-            background-color: brown;
+            border: 2px solid none;
+            background-color: #f1e1e1;
             font-weight: bold;
-            width: 100px;
+            padding: 10px;
+            width: 200px;
             height: 50px;
             opacity: ;
           "
         >
           <a> SHOP NOW</a>
         </button>
-      </div>
-      <div id="img">
-        <img src="../assets/hero.jpg" alt="" id="hero_img" />
       </div>
     </div>
   </div>
@@ -137,7 +145,7 @@
         <button
           style="
             background-color: blue;
-            border: 0.8px solid black;
+            border: 0.8px solid;
             border-radius: 10px;
           "
         >
@@ -148,27 +156,34 @@
   </footer>
 </template>
 <style>
+* {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
 .home {
-  height: 600px;
+  /* height: 600px; */
 }
 #hero_section {
-  background-color: #8890b4;
+  background-color: #3e3a3a;
+  /* background-image: url("../assets/hero.jpg"); */
+  /* background-size: 100%;
+  height: 100vh; */
   display: flex;
+  border: 2px solid none;
 
+  border-radius: 10px;
   justify-content: center;
   gap: 200px;
 }
-#hero_desc {
-  margin-top: 180px;
-}
-#hero_text {
-  color: black;
 
+#hero_text {
   font-size: 40px;
+  margin-right: 60px;
 }
 #hero_img {
   border-radius: 4px;
-  border: 0.4px solid rgb(123, 116, 116);
+  border: 0.4px solid rgb(177, 169, 169);
   width: 500px;
   height: 550px;
   margin: 50px 30px;

@@ -1,30 +1,32 @@
 <template>
-  <div id="header">
-    <div id="img">
-      <img alt="Vue logo" src="./assets/large.png" id="logo" />
-      <p>SHOPME</p>
-    </div>
-
-    <nav id="navigation">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">ShopME</router-link>
-      <router-link to="/men">Man</router-link>
-      <router-link to="/woman">Woman</router-link>
-      <router-link to="/bestseller">Best Seller</router-link>
-    </nav>
-  </div>
-
-  <router-view />
+  <header>
+    <Navigation class="mb-[20px]" />
+  </header>
+  <body>
+    <RouterView />
+  </body>
 </template>
 
+<script>
+import Navigation from "./components/Navigation.vue";
+
+export default {
+  name: "app",
+  components: {
+    Navigation,
+  },
+};
+</script>
 <style>
-#header {
+header {
   margin: auto;
   display: flex;
 
   /* width: 1200px; */
-  height: 120px;
-  background-color: rgba(227, 226, 234, 0.534);
+  height: fit-content;
+  padding: 30px;
+  color: black;
+  background-color: #fff;
   gap: 140px;
 }
 #navigation {
@@ -62,12 +64,13 @@ nav {
 }
 
 nav a {
-  /* //font-weight: ; */
   color: #0b2038;
   font-family: "Montserrat", sans-serif;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
+  font-weight: 00;
+  text-decoration: underline;
 }
 </style>
