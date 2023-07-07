@@ -1,30 +1,40 @@
 <template>
-  <header>
-    <Navigation class="mb-[20px]" />
-  </header>
+  <div class="fixed top-0 left-0 right-0 z-[9999]">
+    <autoslider />
+  </div>
+
+  <Navigation class="w-[1500px]" />
+
   <body>
     <RouterView />
   </body>
+  <footerVue />
 </template>
 
 <script>
 import Navigation from "./components/Navigation.vue";
+import autoslider from "./components/autoslider.vue";
+import footerVue from "./components/footer.vue";
 
 export default {
   name: "app",
   components: {
     Navigation,
+    autoslider,
+    footerVue,
   },
 };
 </script>
 <style>
 header {
   margin: auto;
-  display: flex;
+  /* display: flex; */
 
   /* width: 1200px; */
   height: fit-content;
-  padding: 30px;
+  /* padding: 30px; */
+  padding: 0;
+  padding-top: 20px;
   color: black;
   background-color: #fff;
   gap: 140px;

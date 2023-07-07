@@ -1,11 +1,20 @@
 <template>
-  <div class="flex bg-slate-400 w-full">
-    <nav class="flex justify-center items-center font-black">
+  <div class="flex bg-slate-400 mt-[90px] mx-auto items-center justify-center">
+    <nav class="flex justify-center items-center font-black grow">
       <button class="menu-item"><a href="/">Home</a></button>
       <About title="About" :abouts="abouts" />
       <Mandrop title="Shop" :mans="mans" />
       <div class="menu-item"><a href="#">Contact</a></div>
     </nav>
+    <div class="flex-end mx-[10px]">
+      <div class="flex">
+        <input
+          type="text"
+          placeholder="search here"
+          class="border-2 rounded-[20px] text-black w-[300px] h-[40px] p-2"
+        />
+      </div>
+    </div>
   </div>
 </template>
 

@@ -1,11 +1,9 @@
 <template>
   <div class="p-[50px] grid grid-cols-2 gap-10">
-    <div class=""></div>
-
     <div class="font-sans text-[15px]">
       <h1 class="flex font-semibold mb-4 from-neutral-400">Why Shop ME?</h1>
-      <div class="flex border-2 rounded-md bg-slate-200 w-fit h-[200px]">
-        <p style="text-align: start; font-size: 20px">
+      <div class="flex border-2 rounded-md bg-slate-200 w-[650px] h-[200px]">
+        <p style="text-align: start; font-size: 16px">
           <span>
             without hestitation we can say our shop is the most trusted shop in
             town.</span
@@ -56,16 +54,16 @@
       <div class="Cotton">
         <div class="flex bg-red-50 rounded-lg">
           <img
-            src="../assets/type.jpg"
+            src="../assets/fabric2.jpg"
             alt=""
             width="220px"
             class="h-[220px]"
           />
           <p style="text-align: start">
-            We use Fabric softeners used to come in two forms: liquid and
-            sheets. Today, there are many more options, including pods and dryer
-            balls. You can even find combination products that mix both liquid
-            detergent and conditioner.
+            Natural woven or knitted cotton fabric is super comfortable and one
+            of the best fabric to make clothes with. It is a breathable fabric
+            and can make you feel cool even when the temperature is hot. The
+            best thing about sewing with cotton is that it is easy
           </p>
         </div>
       </div>
@@ -73,16 +71,17 @@
       <div class="Cotton">
         <div class="flex bg-red-50 rounded-lg">
           <img
-            src="../assets/type.jpg"
+            src="../assets/download.jpg"
             alt=""
             width="220px"
             class="h-[220px]"
           />
           <p style="text-align: start">
-            We use Fabric softeners used to come in two forms: liquid and
-            sheets. Today, there are many more options, including pods and dryer
-            balls. You can even find combination products that mix both liquid
-            detergent and conditioner.
+            Silk is a beautiful fabric with a luxurious feel to it and the best
+            fabric for drape. The absorptive capacity of the silk fabric makes
+            comfortable apparel even for a warmer atmosphere. The fabric is cool
+            in summer. Silk fabrics are subjected only to normal shrinkage which
+            can be restored by ironing
           </p>
         </div>
       </div>
@@ -90,16 +89,18 @@
       <div class="Cotton">
         <div class="flex bg-red-50 rounded-lg">
           <img
-            src="../assets/type.jpg"
+            src="../assets/cotton.jpg"
             alt=""
             width="220px"
             class="h-[220px]"
           />
           <p style="text-align: start">
-            We use Fabric softeners used to come in two forms: liquid and
-            sheets. Today, there are many more options, including pods and dryer
-            balls. You can even find combination products that mix both liquid
-            detergent and conditioner.
+            There are about 100 different types of cotton fabric. Natural woven
+            or knitted cotton fabric is super comfortable and one of the best
+            fabric to make clothes with. It is a breathable fabric and can make
+            you feel cool even when the temperature is hot. If you want to sew
+            your first garment by yourself, my advice to choose any cotton
+            fabric. Easy to sew and inexpensive.
           </p>
         </div>
       </div>
