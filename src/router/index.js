@@ -31,9 +31,24 @@ const routes = [
     component: () => import("../components/AboutSize.vue"),
   },
   {
+    path: "/login",
+    name: "Login",
+    component: () => import("../components/LogIn.vue"),
+  },
+  {
+    path: "/signUp",
+    name: "signup",
+    component: () => import("../components/SignUp.vue"),
+  },
+  {
     path: "/newIn",
     name: "newIn",
     component: () => import("../components/NewIn.vue"),
+  },
+  {
+    path: "/order",
+    name: "order",
+    component: () => import("../components/Order.vue"),
   },
 ];
 

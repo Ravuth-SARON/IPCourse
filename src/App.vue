@@ -1,14 +1,18 @@
 <template>
-  <div class="fixed top-0 left-0 right-0 z-[9999]">
-    <autoslider />
-  </div>
+  <transition name="slide" mode="out-in">
+    <div class="flex flex-col justify-cente">
+      <div class="fixed top-0 left-0 right-0 z-[9999]">
+        <autoslider />
+      </div>
 
-  <Navigation class="w-[1500px]" />
+      <Navigation />
 
-  <body>
-    <RouterView />
-  </body>
-  <footerVue />
+      <body>
+        <router-view></router-view>
+      </body>
+      <footerVue />
+    </div>
+  </transition>
 </template>
 
 <script>
@@ -26,6 +30,15 @@ export default {
 };
 </script>
 <style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s ease;
+}
+.slide-enter,
+.slide-leave-to {
+  transform: translateX(100%);
+}
+
 header {
   margin: auto;
   /* display: flex; */

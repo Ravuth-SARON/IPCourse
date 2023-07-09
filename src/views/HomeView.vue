@@ -56,9 +56,7 @@
   margin: 0;
   padding: 0;
 }
-.home {
-  /* height: 600px; */
-}
+
 #hero_section {
   background-color: #3e3a3a;
   /* background-image: url("../assets/hero.jpg"); */

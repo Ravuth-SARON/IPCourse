@@ -107,7 +107,12 @@ export default {
     };
   },
   methods: {
-    getProduct(product) {},
+    getProduct(product) {
+      this.$router.push({
+        name: "order",
+        params: { product: JSON.stringify(product) },
+      });
+    },
   },
 };
 </script>

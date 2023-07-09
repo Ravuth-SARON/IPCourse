@@ -1,5 +1,17 @@
 <template>
   <div class="p-[50px] grid grid-cols-2 gap-10">
+    <div class="bg-white font-sans w-fit" style="text-align: start">
+      <h1 class="flex font-semibold mb-4 from-neutral-400">What is ShopME?</h1>
+      <div class="flex border-2 rounded-md bg-slate-200 w-[500px] h-[200px]">
+        <p class="w-fit text-[16px]">
+          <span> ShopMe is a new shop which founded in 2022 </span>
+          By a new Young genneration and will make u a better person by gainning
+          your confident, your look by providing a good outfit with the quality
+          and affordable price
+        </p>
+        <img src="../assets/3561979.png" alt="" class="bg-white-200" />
+      </div>
+    </div>
     <div class="font-sans text-[15px]">
       <h1 class="flex font-semibold mb-4 from-neutral-400">Why Shop ME?</h1>
       <div class="flex border-2 rounded-md bg-slate-200 w-[650px] h-[200px]">
@@ -17,18 +29,6 @@
           alt=""
           class="bg-white-200 border-2 border-gray-800 rounded-md"
         />
-      </div>
-    </div>
-    <div class="bg-white font-sans w-fit" style="text-align: start">
-      <h1 class="flex font-semibold mb-4 from-neutral-400">What is ShopME?</h1>
-      <div class="flex border-2 rounded-md bg-slate-200 w-[500px] h-[200px]">
-        <p class="w-[500px] text-[16px]">
-          <span> ShopMe is a new shop which founded in 2022 </span>
-          By a new Young genneration and will make u a better person by gainning
-          your confident, your look by providing a good outfit with the quality
-          and affordable price
-        </p>
-        <img src="../assets/3561979.png" alt="" class="bg-white-200" />
       </div>
     </div>
   </div>

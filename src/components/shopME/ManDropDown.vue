@@ -33,7 +33,7 @@ nav .menu-item .sub-menu {
   background-color: rgb(230, 229, 229);
   top: calc(100%+18px);
   left: 50%;
-  padding-top: 10px;
+
   font-weight: 300;
   width: max-content;
   transform: translateX(-50%);
