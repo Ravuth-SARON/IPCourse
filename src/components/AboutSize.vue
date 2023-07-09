@@ -1,5 +1,7 @@
 <template>
-  <img src="../assets/mansize.jpg" alt="" class="w-[1500px]" />
+  <div class="w-full flex justify-center items-center">
+    <img src="../assets/mansize.jpg" alt="" />
+  </div>
 </template>
 
 <script>

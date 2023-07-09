@@ -13,10 +13,21 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
   faUserSecret,
   faArrowUpWideShort,
+  faMagnifyingGlass,
+  faHeart,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faUserSecret, faArrowUpWideShort);
+
+//<font-awesome-icon icon="fa-light fa-heart" />
+library.add(
+  faUserSecret,
+  faArrowUpWideShort,
+  faMagnifyingGlass,
+  faHeart,
+  faUser
+);
 
 //defined as global component
 // Vue.component(
