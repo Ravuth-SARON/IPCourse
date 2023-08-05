@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .container {
+  @apply;
+} */
+.menu {
+  @apply font-bold text-lg text-white;
+}
